@@ -1,9 +1,9 @@
 require("dotenv").config();
 
 const config = require(("./config.json"));
-const mongoose = require ("mongoose");A
+const mongoose = require ("mongoose");
 
-mongoose.connect('mongodb+srv://testuser:testuser123@notesapp.xktcq.mongodb.net/?retryWrites=true&w=majority&appName=notesapp');
+mongoose.connect(config.connectionString);
 
 const User = require("./models/user.model");
 const Note = require("./models/note.model");
