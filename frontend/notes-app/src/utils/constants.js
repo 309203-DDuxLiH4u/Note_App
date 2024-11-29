@@ -1,1 +1,1 @@
-export const BASE_URL = "https://note-app-yc1w-gwxcz9tq0-309203-dduxlih4us-projects.vercel.app/?vercelToolbarCode=IhmRY-hvlQwWjvn"
+export const BASE_URL = "http://localhost:8000"
