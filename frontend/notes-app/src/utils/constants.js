@@ -1,1 +1,1 @@
-export const BASE_URL = "https://note-app-api-five.vercel.app/?vercelToolbarCode=qbRuqSxv3GxFrqe"
+export const BASE_URL = "https://note-app-api-neon.vercel.app"
